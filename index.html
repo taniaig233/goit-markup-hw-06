@@ -35,6 +35,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-open-btn" type="button">
+          <svg class="mobile-icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="main-contacts">
           <ul class="menu-contacts">
             <li class="menu-item-contacts">
@@ -59,6 +64,7 @@
           <button class="main-type-button" type="button">Order Service</button>
         </div>
       </section>
+
       <section class="box-second section">
         <div class="container">
           <h2 class="visually-hidden">заголовок</h2>
@@ -134,15 +140,18 @@
           </ul>
         </div>
       </section>
+
       <section class="box-third section">
         <div class="container box-third-container">
           <h2 class="second-title">Our Team</h2>
           <ul class="menu-image">
             <li class="menu-item-image">
               <img
-                src="./images/productdesigner.jpg"
+                srcset="./images/retino/product2.jpg 2x"
+                src="./images/retino/product1.jpg"
                 alt="Product designer"
                 width="264"
+                height="260"
               />
               <div class="third-title-box">
                 <h3 class="third-title">Mark Guerrero</h3>
@@ -201,9 +210,11 @@
             </li>
             <li class="menu-item-image">
               <img
-                src="./images/frontdev.jpg"
+                srcset="./images/retino/frontend2.jpg 2x"
+                src="./images/retino/frontend1.jpg"
                 alt="Frontend developer"
                 width="264"
+                height="260"
               />
               <div class="third-title-box">
                 <h3 class="third-title">Tom Ford</h3>
@@ -261,7 +272,13 @@
               </div>
             </li>
             <li class="menu-item-image">
-              <img src="./images/marketing.jpg" alt="Marketing" width="264" />
+              <img
+                srcset="./images/retino/marketing2.jpg 2x"
+                src="./images/retino/marketing1.jpg"
+                alt="Marketing"
+                width="264"
+                height="260"
+              />
               <div class="third-title-box">
                 <h3 class="third-title">Camila Garcia</h3>
                 <p class="third-title-text">Marketing</p>
@@ -319,9 +336,11 @@
             </li>
             <li class="menu-item-image">
               <img
-                src="./images/uidesigner.jpg"
+                srcset="./images/retino/uidesigner2.jpg 2x"
+                src="./images/retino/uidesigner1.jpg"
                 alt="UI designer"
                 width="264"
+                height="260"
               />
               <div class="third-title-box">
                 <h3 class="third-title">Daniel Wilson</h3>
@@ -381,13 +400,27 @@
           </ul>
         </div>
       </section>
+
       <section class="box-fourth section">
         <div class="container box-fourth-container">
           <h2 class="second-title">Our Portfolio</h2>
           <ul class="menu-image-two">
             <li class="menu-image-items-portfolio">
               <div class="overlay-box">
-                <img src="./images/banking.jpg" alt="banking" width="360" />
+                <img
+                  srcset="./images/retino/banking-desktop1.jpg 360w,
+                 ./images/retino/banking-tablet1.jpg 356w, 
+                 ./images/retino/banking1.jpg 288w, 
+                 ./images/retino/banking-desktop2.jpg 2x 720w,
+                 ./images/retino/banking-tablet2.jpg 2x 712w,
+                 ./images/retino/banking2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/banking1.jpg"
+                  alt="banking"
+                />
+
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -405,9 +438,17 @@
               <div class="overlay-box">
                 <img
                   class="cashless-payment"
-                  src="./images/payment.jpg"
+                  srcset="./images/retino/cashless-desktop1.jpg 360w,
+                 ./images/retino/cashless-tablet1.jpg 356w, 
+                 ./images/retino/cashless1.jpg 288w, 
+                 ./images/retino/cashless-desktop2.jpg 2x 720w,
+                 ./images/retino/cashless-tablet2.jpg 2x 712w,
+                 ./images/retino/cashless2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/cashless1.jpg"
                   alt="cachless payment"
-                  width="360"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -424,7 +465,20 @@
 
             <li class="menu-image-items-portfolio">
               <div class="overlay-box">
-                <img src="./images/laptop.jpg" alt="meditation" width="360" />
+                <img
+                  srcset="./images/retino/meditation-desktop1.jpg 360w,
+                 ./images/retino/meditation-tablet1.jpg 356w, 
+                 ./images/retino/meditation1.jpg 288w, 
+                 ./images/retino/meditation-desktop2.jpg 2x 720w,
+                 ./images/retino/meditation-tablet2.jpg 2x 712w,
+                 ./images/retino/meditation2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/meditation1.jpg"
+                  alt="meditation"
+                />
+
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -440,7 +494,20 @@
 
             <li class="menu-image-items-portfolio">
               <div class="overlay-box">
-                <img src="./images/taxi.jpg" alt="taxi Service" width="360" />
+                <img
+                  srcset="./images/retino/taxi-desktop1.jpg 360w,
+                 ./images/retino/taxi-tablet1.jpg 356w, 
+                 ./images/retino/taxi1.jpg 288w, 
+                 ./images/retino/taxi-desktop2.jpg 2x 720w,
+                 ./images/retino/taxi-tablet2.jpg 2x 712w,
+                 ./images/retino/taxi2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/taxi1.jpg"
+                  alt="taxi service"
+                />
+
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -457,9 +524,17 @@
             <li class="menu-image-items-portfolio">
               <div class="overlay-box">
                 <img
-                  src="./images/illustration.jpg"
-                  alt="illustrations"
-                  width="360"
+                  srcset="./images/retino/screen-desktop1.jpg 360w,
+                 ./images/retino/screen-tablet1.jpg 356w, 
+                 ./images/retino/screen1.jpg 288w, 
+                 ./images/retino/screen-desktop2.jpg 2x 720w,
+                 ./images/retino/screen-tablet2.jpg 2x 712w,
+                 ./images/retino/screen2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/screen1.jpg"
+                  alt="screen illustrations"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -475,7 +550,19 @@
 
             <li class="menu-image-items-portfolio">
               <div class="overlay-box">
-                <img src="./images/girl.jpg" alt="online courses" width="360" />
+                <img
+                  srcset="./images/retino/courses-desktop1.jpg 360w,
+                 ./images/retino/courses-tablet1.jpg 356w, 
+                 ./images/retino/courses1.jpg 288w, 
+                 ./images/retino/courses-desktop2.jpg 2x 720w,
+                 ./images/retino/courses-tablet2.jpg 2x 712w,
+                 ./images/retino/courses2.jpg 2x 576w"
+                  sizes="(min-width:1158px) 360px, 
+                (min-width:768px) 356px, 
+                (max-width:767px) 288px"
+                  src="./images/retino/courses1.jpg"
+                  alt="online courses"
+                />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -491,6 +578,7 @@
         </div>
       </section>
     </main>
+
     <footer class="main-footer">
       <div class="container footer-container">
         <div class="logo-text-box-footer">
@@ -560,7 +648,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -652,12 +740,89 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privete-policy-link" href=""> Privacy Policy </a>
+              <span class="request form-text"
+                >I accept the terms and conditions of the
+                <a class="privete-policy-link" href=""> Privacy Policy </a>
+              </span>
             </label>
           </div>
           <button class="request-form-button" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-list-item">
+              <a class="mobile-menu-link-studio" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a class="mobile-menu-link" href="./index.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a class="mobile-menu-link" href="./index.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-contacts-list">
+            <li class="mobile-menu-contacts-list-item-tel">
+              <a
+                class="mobile-menu-link-contacts-tel"
+                href=" tel:+110001111111"
+              >
+                +11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="mobile-menu-contacts-list-item-mail">
+              <a
+                class="mobile-menu-link-contacts-mail"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-menu-media-container">
+          <ul class="mobile-menu-media-list">
+            <li class="mobile-menu-media-list-item">
+              <a href="" class="mobile-menu-media-link">
+                <svg class="mobile-menu-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-media-list-item">
+              <a href="" class="mobile-menu-media-link">
+                <svg class="mobile-menu-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-media-list-item">
+              <a href="" class="mobile-menu-media-link">
+                <svg class="mobile-menu-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-media-list-item">
+              <a href="" class="mobile-menu-media-link">
+                <svg class="mobile-menu-media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
